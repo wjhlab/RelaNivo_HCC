@@ -1,6 +1,7 @@
 # RelaNivo_HCC
 
-All necessary scripts for analyzing the IMC dataset are in this repository. All associated RDS files are in Zenodo at: 
+All necessary scripts for analyzing the IMC dataset are in this repository. The "Config" folder contains relevant metadata and clustering annotation text. 
+All associated RDS files are in Zenodo at: 
 
 ## 1. Cell-type clustering and annotation
 FlowSOMClusteringPipeline.R takes all single-cell csv files, performs patient-level normalization, and generates a cluster heatmap for annotation of broad cell types.
